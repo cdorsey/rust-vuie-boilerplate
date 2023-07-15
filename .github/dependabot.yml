@@ -1,0 +1,17 @@
+version: 2
+
+updates:
+  - package-ecosystem: cargo
+    directory: /
+    schedule:
+      interval: monthly
+  - package-ecosystem: cargo
+    directory: /server
+    schedule:
+      interval: monthly
+  - package-ecosystem: cargo
+    directory: /xtask
+    schedule:
+      interval: monthly
+  - package-ecosystem: pnpm
+    directory: /client
