@@ -1,0 +1,9 @@
+.git
+.vscode
+
+target
+dist
+
+pnpm-debug.log*
+*.log
+node_modules

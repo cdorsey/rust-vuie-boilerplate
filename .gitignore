@@ -1,0 +1,9 @@
+/target
+/dist
+
+pnpm-debug.log*
+*.log
+node_modules
+
+.vscode/*
+!.vscode/extensions.json
