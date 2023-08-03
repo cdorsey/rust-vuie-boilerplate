@@ -15,3 +15,5 @@ updates:
       interval: monthly
   - package-ecosystem: pnpm
     directory: /client
+    schedule:
+      interval: monthly
