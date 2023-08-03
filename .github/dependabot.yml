@@ -13,7 +13,7 @@ updates:
     directory: /xtask
     schedule:
       interval: monthly
-  - package-ecosystem: pnpm
+  - package-ecosystem: npm
     directory: /client
     schedule:
       interval: monthly
