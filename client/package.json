@@ -20,7 +20,7 @@
     "@vue/eslint-config-airbnb": "^7.0.0",
     "@vue/test-utils": "^2.4.0",
     "eslint": "^8.45.0",
-    "happy-dom": "^10.3.2",
+    "happy-dom": "^10.11.2",
     "typescript": "^5.0.2",
     "vite": "^4.4.0",
     "vitest": "^0.34.1",
