@@ -16,7 +16,7 @@
     "vue": "^3.3.7"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue": "^4.5.1",
     "@vue/eslint-config-airbnb": "^7.0.0",
     "@vue/test-utils": "^2.4.0",
     "eslint": "^8.52.0",
