@@ -14,8 +14,8 @@ devDependencies:
     specifier: ^4.5.1
     version: 4.5.1(vite@4.5.0)(vue@3.3.7)
   '@vue/eslint-config-airbnb':
-    specifier: ^7.0.0
-    version: 7.0.0(eslint-plugin-vue@9.16.1)(eslint@8.54.0)
+    specifier: ^7.0.1
+    version: 7.0.1(eslint-plugin-vue@9.16.1)(eslint@8.54.0)
   '@vue/test-utils':
     specifier: ^2.4.3
     version: 2.4.3(vue@3.3.7)
@@ -517,8 +517,8 @@ packages:
       '@vue/compiler-dom': 3.3.7
       '@vue/shared': 3.3.7
 
-  /@vue/eslint-config-airbnb@7.0.0(eslint-plugin-vue@9.16.1)(eslint@8.54.0):
-    resolution: {integrity: sha512-qC3HRnvaDWRocDKPVKUnjWLXo1NDfDSPKwizc49llN/mRZF2Q9D/7wcAMwzCVzPM/D80ZUz0sy1cq9u/6jFnqw==}
+  /@vue/eslint-config-airbnb@7.0.1(eslint-plugin-vue@9.16.1)(eslint@8.54.0):
+    resolution: {integrity: sha512-8d5QJeaL3PxKXfCVNGSA7RSKk+GNQLkOAMgN33ST+wJaXSdUI/4dJ0+LfqoLOu92NqwmKiIEZWMyPiGywhS1BA==}
     peerDependencies:
       eslint: ^8.2.0
       eslint-plugin-vue: ^9.2.0
@@ -1116,7 +1116,7 @@ packages:
     dependencies:
       eslint-plugin-import: 2.28.0(eslint@8.54.0)
       glob-parent: 6.0.2
-      resolve: 1.22.2
+      resolve: 1.22.3
     dev: true
 
   /eslint-import-resolver-node@0.3.7:
@@ -1124,7 +1124,7 @@ packages:
     dependencies:
       debug: 3.2.7
       is-core-module: 2.12.1
-      resolve: 1.22.2
+      resolve: 1.22.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -1278,11 +1278,6 @@ packages:
     dependencies:
       esrecurse: 4.3.0
       estraverse: 5.3.0
-    dev: true
-
-  /eslint-visitor-keys@3.4.2:
-    resolution: {integrity: sha512-8drBzUEyZ2llkpCA67iYrgEssKDUu68V8ChqqOfFupIaG/LCVPUT+CoGJpT77zJprs4T/W7p07LP7zAIMuweVw==}
-    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     dev: true
 
   /eslint-visitor-keys@3.4.3:
@@ -2188,15 +2183,6 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /resolve@1.22.2:
-    resolution: {integrity: sha512-Sb+mjNHOULsBv818T40qSPeRiuWLyaGMa5ewydRLFimneixmVy2zdivRl+AF6jaYPC8ERxGDmFSiqui6SfPd+g==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.12.1
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
-    dev: true
-
   /resolve@1.22.3:
     resolution: {integrity: sha512-P8ur/gp/AmbEzjr729bZnLjXK5Z+4P0zhIJgBgzqRih7hL7BOukHGtSTA3ACMY467GRFz3duQsi0bDZdR7DKdw==}
     hasBin: true
@@ -2636,7 +2622,7 @@ packages:
       debug: 4.3.4
       eslint: 8.54.0
       eslint-scope: 7.2.2
-      eslint-visitor-keys: 3.4.2
+      eslint-visitor-keys: 3.4.3
       espree: 9.6.1
       esquery: 1.5.0
       lodash: 4.17.21
