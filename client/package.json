@@ -13,7 +13,7 @@
     "clean": "rm -rf dist"
   },
   "dependencies": {
-    "vue": "^3.3.9"
+    "vue": "^3.4.3"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.6.2",
