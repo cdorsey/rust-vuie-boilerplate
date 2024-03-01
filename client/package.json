@@ -19,7 +19,7 @@
     "@vitejs/plugin-vue": "^4.6.2",
     "@vue/eslint-config-airbnb": "^8.0.0",
     "@vue/test-utils": "^2.4.4",
-    "eslint": "^8.56.0",
+    "eslint": "^8.57.0",
     "happy-dom": "^12.10.3",
     "typescript": "^5.3.3",
     "vite": "^5.0.12",
