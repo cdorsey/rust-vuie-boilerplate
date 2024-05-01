@@ -17,8 +17,8 @@ devDependencies:
     specifier: ^8.0.0
     version: 8.0.0(eslint-plugin-vue@9.16.1)(eslint@8.57.0)
   '@vue/test-utils':
-    specifier: ^2.4.4
-    version: 2.4.4(vue@3.4.21)
+    specifier: ^2.4.5
+    version: 2.4.5
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -715,18 +715,11 @@ packages:
     resolution: {integrity: sha512-rIwlkkP1n4uKrRzivAKPZIEkHiuwY5mmhMJ2nZKCBLz8lTUlE73rQh4n1OnnMurXt1vcUNyH4ZPfdh8QweTjpQ==}
     dev: true
 
-  /@vue/test-utils@2.4.4(vue@3.4.21):
-    resolution: {integrity: sha512-8jkRxz8pNhClAf4Co4ZrpAoFISdvT3nuSkUlY6Ys6rmTpw3DMWG/X3mw3gQ7QJzgCZO9f+zuE2kW57fi09MW7Q==}
-    peerDependencies:
-      '@vue/server-renderer': ^3.0.1
-      vue: ^3.0.1
-    peerDependenciesMeta:
-      '@vue/server-renderer':
-        optional: true
+  /@vue/test-utils@2.4.5:
+    resolution: {integrity: sha512-oo2u7vktOyKUked36R93NB7mg2B+N7Plr8lxp2JBGwr18ch6EggFjixSCdIVVLkT6Qr0z359Xvnafc9dcKyDUg==}
     dependencies:
       js-beautify: 1.14.9
-      vue: 3.4.21(typescript@5.4.5)
-      vue-component-type-helpers: 1.8.24
+      vue-component-type-helpers: 2.0.16
     dev: true
 
   /abbrev@1.1.1:
@@ -3015,8 +3008,8 @@ packages:
       - terser
     dev: true
 
-  /vue-component-type-helpers@1.8.24:
-    resolution: {integrity: sha512-lqWs/7fdRXoSBAlbouHBX+LNuaY6gI9xWW34m/ZIz9zVPYHEyw0b2/zaCBwlKx0NtKTeF/6pOpvrxVkh7nhIYg==}
+  /vue-component-type-helpers@2.0.16:
+    resolution: {integrity: sha512-qisL/iAfdO++7w+SsfYQJVPj6QKvxp4i1MMxvsNO41z/8zu3KuAw9LkhKUfP/kcOWGDxESp+pQObWppXusejCA==}
     dev: true
 
   /vue-eslint-parser@9.3.2(eslint@8.57.0):
