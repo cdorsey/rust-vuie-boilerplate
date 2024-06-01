@@ -23,8 +23,8 @@ devDependencies:
     specifier: ^8.57.0
     version: 8.57.0
   happy-dom:
-    specifier: ^14.7.1
-    version: 14.7.1
+    specifier: ^14.12.0
+    version: 14.12.0
   typescript:
     specifier: ^5.4.5
     version: 5.4.5
@@ -33,7 +33,7 @@ devDependencies:
     version: 5.2.7
   vitest:
     specifier: ^1.5.3
-    version: 1.5.3(happy-dom@14.7.1)
+    version: 1.5.3(happy-dom@14.12.0)
   vue-tsc:
     specifier: ^2.0.16
     version: 2.0.16(typescript@5.4.5)
@@ -1699,8 +1699,8 @@ packages:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
 
-  /happy-dom@14.7.1:
-    resolution: {integrity: sha512-v60Q0evZ4clvMcrAh5/F8EdxDdfHdFrtffz/CNe10jKD+nFweZVxM91tW+UyY2L4AtpgIaXdZ7TQmiO1pfcwbg==}
+  /happy-dom@14.12.0:
+    resolution: {integrity: sha512-dHcnlGFY2o2CdxfuYpqwSrBrpj/Kuzv4u4f3TU5yHW1GL24dKij4pv1BRjXnXc3uWo8qsCbToF9weaDsm/He8A==}
     engines: {node: '>=16.0.0'}
     dependencies:
       entities: 4.5.0
@@ -2899,7 +2899,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vitest@1.5.3(happy-dom@14.7.1):
+  /vitest@1.5.3(happy-dom@14.12.0):
     resolution: {integrity: sha512-2oM7nLXylw3mQlW6GXnRriw+7YvZFk/YNV8AxIC3Z3MfFbuziLGWP9GPxxu/7nRlXhqyxBikpamr+lEEj1sUEw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -2933,7 +2933,7 @@ packages:
       chai: 4.3.10
       debug: 4.3.4
       execa: 8.0.1
-      happy-dom: 14.7.1
+      happy-dom: 14.12.0
       local-pkg: 0.5.0
       magic-string: 0.30.7
       pathe: 1.1.1
